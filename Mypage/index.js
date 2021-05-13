@@ -1,6 +1,7 @@
 
 function doFunction(){
 //picking up 1 random number for img 1
+alert("working");
 var randomNumber1;
 randomNumber1=Math.floor(((Math.random()*6)+1));
 var randomNumber1img= "/images/dice"+randomNumber1+".png";
