@@ -13,7 +13,6 @@ randomNumber2=Math.floor(((Math.random()*6)+1));
 var randomNumber2img= "/images/dice"+randomNumber2+".png";
 document.querySelector(".img2");
 document.querySelector(".img2").setAttribute("src",randomNumber2img);
-alert("working");
 
 //displaying who wins
 if (randomNumber1>randomNumber2)
@@ -22,6 +21,8 @@ if (randomNumber1<randomNumber2)
 document.querySelector("h1").textContent="Player 2 Wins!";
 if (randomNumber1===randomNumber2)
 document.querySelector("h1").textContent="It's a Draw!";
+alert("working");
+
 }
 
 
