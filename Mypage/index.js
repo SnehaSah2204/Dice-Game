@@ -1,3 +1,4 @@
+
 function doFunction(){
 //picking up 1 random number for img 1
 var randomNumber1;
