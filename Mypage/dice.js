@@ -3,14 +3,14 @@ function doFunction(){
 //picking up 1 random number for img 1
 var randomNumber1;
 randomNumber1=Math.floor(((Math.random()*6)+1));
-var randomNumber1img= "/images/dice"+randomNumber1+".png";
+var randomNumber1img= "images/dice"+randomNumber1+".png";
 document.querySelector(".img1");
 document.querySelector(".img1").setAttribute("src",randomNumber1img);
 
 //picking up 1 random number for img 2
 var randomNumber2;
 randomNumber2=Math.floor(((Math.random()*6)+1));
-var randomNumber2img= "/images/dice"+randomNumber2+".png";
+var randomNumber2img= "images/dice"+randomNumber2+".png";
 document.querySelector(".img2");
 document.querySelector(".img2").setAttribute("src",randomNumber2img);
 
