@@ -4,6 +4,7 @@ function doFunction(){
 var randomNumber1;
 randomNumber1=Math.floor(((Math.random()*6)+1));
 var randomNumber1img= "images/dice"+randomNumber1+".png";
+var randomNumber1img= "images/dice6.png";
 document.querySelector(".img1");
 document.querySelector(".img1").setAttribute("src",randomNumber1img);
 
